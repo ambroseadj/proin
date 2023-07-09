@@ -1,0 +1,94 @@
+.home-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center-page {
+    width: 300px;
+  }
+  
+  .login-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .input-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .action-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .switch-button {
+    background-color: transparent;
+    border: none;
+    color: blue;
+    cursor: pointer;
+  }
+  .hover-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #f1f1f1;
+    z-index: 100;
+  }
+  
+  .popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 20px;
+  }
+  
+.hover-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #f1f1f1;
+  z-index: 100;
+}
+
+.popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.popup p {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
+.home-page {
+  background-image: url('photo-1428908728789-d2de25dbd4e2.avif');
+  background-size: cover;
+  background-position: center;
+}
