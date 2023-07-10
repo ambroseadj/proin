@@ -38,7 +38,7 @@ const HomePage = () => {
         setSignupSuccess(true);
         setTimeout(() => {
           setSignupSuccess(false);
-        }, 3000); // Set the timeout for 3 seconds
+        }, 3000); 
       } else {
         response = await axios.post('http://localhost:3003/api/login', {
           email: email,
@@ -47,10 +47,10 @@ const HomePage = () => {
         setIsLoggedIn(true);
       }
 
-      // Handle the
+    
       console.log('Response:', response);
     } catch (error) {
-      // Handle the error response
+      
       console.error('Error:', error);
     }
   };
