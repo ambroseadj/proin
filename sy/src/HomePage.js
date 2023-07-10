@@ -47,7 +47,7 @@ const HomePage = () => {
         setIsLoggedIn(true);
       }
 
-      // Handle the response as per your application logic
+      // Handle the
       console.log('Response:', response);
     } catch (error) {
       // Handle the error response
@@ -60,8 +60,6 @@ const HomePage = () => {
 
    if (email !== initialEmail) {
       setUpdateSuccess(false);
-      // Show a popup message indicating that email cannot be changed
-      // You can customize the popup message as per your requirement
       setRedirectToLogin(true);
       return;
     }
@@ -92,12 +90,10 @@ const HomePage = () => {
       setTimeout(() => {
         setUpdateSuccess(false);
         setRedirectToLogin(true);
-      }, 2000); // Set the timeout for 2 seconds
-  
-      // Handle the response as per your application logic
+      }, 2000); 
       console.log('Update Response:', updateResponse);
     } catch (error) {
-      // Handle the error response
+      
       console.error('Update Error:', error);
     }
   };
